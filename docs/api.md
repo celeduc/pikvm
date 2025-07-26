@@ -3,7 +3,7 @@ title: HTTP API reference
 #description: Getting started with PiKVM V4 Mini & Plus
 ---
 
-This document describes the PiKVM API. Since the system consists of microservices, here is a common API with a common entry point provided by Nginx. The below examples use `curl` and [`websocat`](https://github.com/vi/websocat) with the `-k` option disables SSL certificate verification, since the self-signed certificateis are used in the default installation.
+This document describes the PiKVM API. Since the system consists of microservices, here is a common API with a common entry point provided by Nginx. The below examples use `curl` and [`websocat`](https://github.com/vi/websocat) with the `-k` option disables SSL certificate verification, since the self-signed certificate is used in the default installation.
 
 There is a [third-party library](https://github.com/guanana/pikvm-lib) for using the PiKVM API. Please note that this is an unofficial library, so use it carefully.
 
